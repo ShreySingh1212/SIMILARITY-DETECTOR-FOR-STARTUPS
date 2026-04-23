@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database and Data Files
+backend/data/*.db
+backend/data/chroma_db/
+backend/data/chroma_db_numpy.json
+*.db
+*.sqlite3
+
+# Logs
+logs
+*.log
+backend/error_log.txt
+
+# Build outputs
+frontend/dist/
+frontend/build/
